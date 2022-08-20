@@ -1,5 +1,13 @@
 {
-    "id": 1,
-    "title": "Hello World",
-    "completed": false
+    "shops": [{
+        "name": "Tesco",
+        "color": "blue"
+    }],
+    "items": [{
+        "name": "Plienky 1",
+        "price": 2.99,
+        "units": 24,
+        "unitMeasure": "ks",
+        "shop": "Tesco"
+    }]
 }
