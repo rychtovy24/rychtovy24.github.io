@@ -20,7 +20,16 @@
         <div style="height: 100vh;">
             <main class="col-sm-12 pt-2">
                 <div class="px-4">
+                    <table>
+                        <thead>
+                            <tr>
 
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
                 </div>
             </main>
         </div>
@@ -28,7 +37,7 @@
     <script>
         fetch('https://rychtovy24.github.io/data.json')
             .then((response) => response.json())
-            .then((json) => console.log(json));
+            .then((json) => console.log(json.columns));
     </script>
 </body>
 

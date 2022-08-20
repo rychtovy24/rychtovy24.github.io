@@ -1,7 +1,7 @@
 {
-    "shops": [{
-        "name": "Tesco",
-        "color": "blue"
+    "columns": [{
+        "name": "Nazov polozky",
+        "type": "text"
     }],
     "items": [{
         "name": "Plienky 1",
